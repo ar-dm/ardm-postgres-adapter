@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {spec}/*`.split("\n")
-  gem.extra_rdoc_files = %w[LICENSE]
+  gem.extra_rdoc_files = %w[LICENSE README.md]
   gem.require_paths = [ "lib" ]
 
   gem.add_runtime_dependency 'do_postgres', '~> 0.10.6'
